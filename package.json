@@ -46,5 +46,8 @@
   },
   "engines": {
     "node": ">=12"
+  },
+  "resolutions": {
+    "**/dot-prop": "^5.2.0"
   }
 }
