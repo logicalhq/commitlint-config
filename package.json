@@ -26,23 +26,24 @@
     "fmt:check": "prettier --list-different \"./**/*.{js,json,md}\"",
     "lint": "eslint . --ext .js",
     "lint:fix": "yarn lint --fix",
+    "lint:spelling": "cspell --config=.cspell.json \"**/*.{md,js}\"",
     "precommit": "yarn lint-staged",
     "prepush": "yarn fmt:check",
     "test": "jest",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/lint": "^8.3.5",
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/lint": "^9.1.2",
     "@logicalhq/eslint-config-base": "^1.0.2",
-    "eslint": "^7.0.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "^23.11.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
     "husky": "^4.2.5",
-    "jest": "^26.0.1",
-    "jest-junit": "^10.0.0",
-    "lint-staged": "^10.2.2",
-    "prettier": "^2.0.5"
+    "jest": "^26.4.2",
+    "jest-junit": "^11.1.0",
+    "lint-staged": "^10.3.0",
+    "prettier": "^2.1.1"
   },
   "engines": {
     "node": ">=12"
