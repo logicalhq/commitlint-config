@@ -27,7 +27,14 @@
     "/TS[^\\s]+/",
     "\\(#.+?\\)"
   ],
-  "words": ["logical", "logicalhq"],
+  "words": [
+    "logical",
+    "logicalhq",
+    "commitlint",
+    "lowercased",
+    "Gitmojis",
+    "Cuesta's"
+  ],
   "overrides": [
     {
       "filename": "**/*.{ts,js}",

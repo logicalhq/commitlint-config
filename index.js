@@ -18,7 +18,7 @@ module.exports = {
   },
   parserPreset: {
     parserOpts: {
-      headerPattern: /^(:\w*:)(?:\((.*?)\))?\s((?:.*(?=\())|.*)(?:\(#(\d*)\))?/,
+      headerPattern: /^(:\w*:)(?:\((.*?)\))?\s((?:.*(?=\[))|.*)(?:\[#(\d*)\])?/,
       headerCorrespondence: ['type', 'scope', 'subject', 'issue'],
       issuePrefixes: ['#']
     }
