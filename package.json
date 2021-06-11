@@ -47,7 +47,7 @@
     "prettier": "^2.3.1"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "resolutions": {
     "**/lodash": "^4.17.19",

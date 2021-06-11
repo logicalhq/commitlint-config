@@ -4,7 +4,7 @@ defaults: &defaults
   working_directory: ~/commintlint-config
 
 aliases:
-  - &docker:
+  - &docker
     - image: cimg/node:16.3.0
 
 jobs:
@@ -30,7 +30,6 @@ jobs:
           paths:
             - commintlint-config
             - .cache
-
   lint:
     <<: *defaults
     docker: *docker
