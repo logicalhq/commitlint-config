@@ -33,18 +33,18 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/lint": "^12.1.4",
-    "@logicalhq/eslint-config-base": "^1.0.2",
-    "cspell": "^5.6.3",
-    "eslint": "^7.28.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^24.3.6",
-    "husky": "^6.0.0",
-    "jest": "^27.0.4",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/lint": "^13.1.0",
+    "@logicalhq/eslint-config-base": "^1.0.4",
+    "cspell": "^5.8.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-jest": "^24.4.0",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
     "jest-junit": "^12.2.0",
-    "lint-staged": "^11.0.0",
-    "prettier": "^2.3.1"
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2"
   },
   "engines": {
     "node": ">=16"
